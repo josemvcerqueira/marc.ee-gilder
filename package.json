@@ -19,6 +19,8 @@
     "typescript": "^5.1.3"
   },
   "dependencies": {
+    "@interest-protocol/sui-amm-sdk": "^1.0.0",
+    "@mysten/bcs": "^0.7.2",
     "@mysten/sui.js": "^0.36.0"
   }
 }
