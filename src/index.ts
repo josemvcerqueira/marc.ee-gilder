@@ -78,7 +78,6 @@ const start = async () => {
 
     if (r)
     console.log(r.map(x => {
-        console.log(x)
         return bcs.de('vector<Community>', Uint8Array.from(x[0]))
     }))
 }
